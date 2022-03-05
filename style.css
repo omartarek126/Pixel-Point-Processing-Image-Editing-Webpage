@@ -1,0 +1,26 @@
+.column {
+  float: left;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.identification{
+  text-align: center;
+}
+
+.name{
+  color:royalblue
+}
+
+.id{
+  color:red
+}
+
+.tutorial{
+  color:green
+}
